@@ -1,2 +1,4 @@
-# games
-I'd like share some games I made few time ago...
+# Portfolio
+As a web designer and developer with a diverse skill set, including expertise in technologies such as Javascript, React, React-native, and NodeJs, I am confident in my ability to create exceptional websites and apps. In addition to my technical skills, I have also cultivated a strong understanding of responsive design and am eager to expand my knowledge in the areas of UX and backend development.
+
+I am a friendly, polite, and enthusiastic individual with a positive attitude and a determination to succeed in any task or challenge that comes my way. I take pride in my hardworking nature and enjoy tackling a diverse range of tasks and situations. My experiences living in various countries have contributed to my open-mindedness, empathy, and respect for diverse cultures and perspectives.
