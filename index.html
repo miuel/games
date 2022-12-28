@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<meta charset="UTF-8"/>
+<meta charset="UTF-8" />
 
 <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
 <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
 <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -33,113 +33,133 @@
 
 <body>
 
-    <div id="contenedor">
-        <div class="info-personal">
-            <picture> <img class="pic animated rotateIn" srcset="img/logo_2.png" alt="logo"/> </picture>
-              <div class="animated bounceInUp">
-                <h4>~ Welcome to my website ~</h4>
-                    <p class="texto"> 
-                        My name is Miguel Rivas I'm newcomer at web development. I've spent just 6 months 
-                        coding on JavaScript. In my opinion JavaScript may be intimidating at the begining, but to understand it, is vital for web developers.
-                        I wish to build user interfaces, websites that feel right to use and that looks good. 
-                        So I would like to share and show you some games that I've developed in JavaScript, Html5 and Css3. I hope you enjoy it !
-                    </p>
-                    <p>(Reload to play again in all cases)</p>
-              </div>      
-        </div>
-    <a href="#contenedor1"><p class="next">more +</p></a>
+  <div id="contenedor">
+    <div class="info-personal">
+      <picture> <img class="pic animated rotateIn" srcset="img/logo_2.png" alt="logo" /> </picture>
+      <div class="animated bounceInUp">
+        <h4>~ Welcome to Miguel Angel Rivas portfolio ~</h4>
+        <p class="texto">
+          Miguel Angel Rivas is a highly skilled web and mobile developer with over 5 years of experience building
+          websites and applications that are smooth, accessible, and user-friendly. With a strong background in ReactJS
+          and React Native, Miguel has a passion for improving user experience and has successfully contributed to the
+          development of numerous projects. In his previous roles, Miguel has demonstrated his ability to work
+          effectively in a variety of technologies, including AJAX, jQuery, CSS, and Node JS, and has a proven track
+          record of delivering high-quality results. Miguel is a dedicated and innovative developer who is always
+          looking for new ways to improve and excel in his work.
+        </p>
+      </div>
     </div>
+    <a href="#contenedor1">
+      <p class="next">more +</p>
+    </a>
+  </div>
 
-            <!-- CONTENEDOR 1 -->
-    <div id="contenedor1" class="efecto">
-        <h4>Start with</h4>
-        <h3 class="animated rubberBand">✊, ✋ or ✌🏽</h3>
-            <p class="texto">For sure everyone knows this game, however remeber these simples Rules:</br>
-            </br>  
-                Rock: wins against scissors, loses to paper and stalemates against itself</br>
-                Paper: wins against rock, loses to scissors and stalemates against itself</br>
-                Scissors: wins against paper, loses to rock and stalemates against itself
-            </p>
-            <button class="btn" onclick="jugar()">play</button>
-            <script type="text/javascript">
-              function jugar(x, msj) {
-                var x = document.getElementById("jugar").innerHTML =  play();      
-                var msj = document.getElementById("jugar").innerHTML =   "Jan Ken Pon!";     
-              }
-            </script>
-        
-            
-    <a href="#contenedor2"><p class="next">more +</p></a>                
-    </div>
-            <!-- CONTENEDOR 2 -->
-    <div id="contenedor2" class="efecto">
-        <h4 class="hangman">Hangman</h4>        
-          <p class="pcanvas">Could you guess the name of the country letter by letter ?. If you can't you will Die ☠ Easy</p>
-          
-            <p class="pcanvas">
-              Choose a letter 
-                <input type="text" required placeholder="write here" id="letra"></input>
-                <input type="button" id="boton" value="try!"></input>
-            </p>
-            <p id="pista" class="pcanvas"></p>
-            <canvas id ="c"></canvas>
-            <script type="text/javascript"> iniciar(); </script>
+  <!-- CONTENEDOR 1 -->
+  <div id="contenedor1" class="efecto">
+    <h4>Start with</h4>
+    <h3 class="animated rubberBand">✊, ✋ or ✌🏽</h3>
+    <p class="texto">For sure everyone knows this game, however remeber these simples Rules:</br>
+      </br>
+      Rock: wins against scissors, loses to paper and stalemates against itself</br>
+      Paper: wins against rock, loses to scissors and stalemates against itself</br>
+      Scissors: wins against paper, loses to rock and stalemates against itself
+    </p>
+    <button class="btn" onclick="jugar()">play</button>
+    <script type="text/javascript">
+      function jugar(x, msj) {
+        var x = document.getElementById("jugar").innerHTML = play();
+        var msj = document.getElementById("jugar").innerHTML = "Jan Ken Pon!";
+      }
+    </script>
 
-     <a href="#contenedor3"><p class="next">more +</p></a>       
-    </div>
-            <!-- CONTENEDOR 3    -->
-    <div id="contenedor3" class="efecto">
-        <h4>The Jumper (not finish yet)</h4>
-          <canvas id="jump"></canvas>
-          <script type="text/javascript" src="js/jumper.js"></script>
 
-            <script type="text/javascript">
-            document.getElementById("jump").onmousedown = function() { 
-            jump(); }
-            </script>
-        
-     <a href="#contenedor4"><p class="next">more +</p></a>
-    </div>
+    <a href="#contenedor2">
+      <p class="next">more +</p>
+    </a>
+  </div>
+  <!-- CONTENEDOR 2 -->
+  <div id="contenedor2" class="efecto">
+    <h4 class="hangman">Hangman</h4>
+    <p class="pcanvas">Could you guess the name of the country letter by letter ?. If you can't you will Die ☠ Easy</p>
 
-            <!-- CONTENEDOR 4 -->
-    <div id="contenedor4" class="efecto">
-        <h3>What is the gravity of the planets and the moon?</h3>
-            <p> 0) Mercury: 2.78 m/s²</br>
-                1) Venus: 8.87 m/s²</br>
-                2) Moon: 1.62 m/s²</br>
-                3) Mars: 3.72 m/s²</br>
-                4) Jupiter: 22.88 m/s²</br>
-                5) Saturn: 9.05 m/s²</br>
-                6) Uranus: 7.77 m/s²</br>
-                8) Neptune: 11 m/s²</br>
-                8) Plutón: 0.4 m/s²
-            </p>
-            <h5>Having this knowledge, calc your weight in the others planets</h5>
-              <p class="">Remeber the Earth is: 9.78 m/s²</br></p> 
+    <p class="pcanvas">
+      Choose a letter
+      <input type="text" required placeholder="write here" id="letra"></input>
+      <input type="button" id="boton" value="try!"></input>
+    </p>
+    <p id="pista" class="pcanvas"></p>
+    <canvas id="c"></canvas>
+    <script type="text/javascript"> iniciar(); </script>
 
-            <button class="btn" onclick="calc()">play</button>
-            <script type="text/javascript"> function calc(x, msj) { var x = document.getElementById("calc").innerHTML = calculing(); } </script>
+    <a href="#contenedor3">
+      <p class="next">more +</p>
+    </a>
+  </div>
+  <!-- CONTENEDOR 3    -->
+  <div id="contenedor3" class="efecto">
+    <h4>The Jumper (not finish yet)</h4>
+    <canvas id="jump"></canvas>
+    <script type="text/javascript" src="js/jumper.js"></script>
 
-    <a href="#contenedor5"><p class="next">more +</p></a>         
-    </div>
+    <script type="text/javascript">
+      document.getElementById("jump").onmousedown = function () {
+        jump();
+      }
+    </script>
 
-            <!-- CONTENEDOR 5     -->
-    <div id="contenedor5" class="efecto">
-        <h2>Contact</h2>        
-            <h6>How I can help you?.</h6>
-              <p>Thanks for visiting my website I hope you enjoyed it.</p>
-              <p>Through this form you may send me any message.</p>
-              <a class="contacto" href="mailto:rivasmig@gmail.com"><strong>E-mail</strong> <span>rivasmig@gmail.com</span></a>
-              <p>Or give me a call on</p> <a class="contacto" href="tel:+34658127574"><strong>Telefono</strong> <span>+34658127574</span></a>
-            <p>More about me:</p>
-                <a href="https://es.linkedin.com/in/MiguelRivasIn" target="blank"><img class="icon-in" src="img/linkedin2.svg" alt="LinkendIn" /></a>
-                <a href="https://twitter.com/2N_mikel" target="blank" ><img class="icon-tw" src="img/twitter.svg" alt="Twitter" /></a>
-                <a href="https://github.com/miuel" target="blank"><img class="icon-git" src="img/github.svg" alt="Github" /></a>
+    <a href="#contenedor4">
+      <p class="next">more +</p>
+    </a>
+  </div>
 
-    <a href="#contenedor"><p class="next">more +</p></a>         
-    </div>
+  <!-- CONTENEDOR 4 -->
+  <div id="contenedor4" class="efecto">
+    <h3>What is the gravity of the planets and the moon?</h3>
+    <p> 0) Mercury: 2.78 m/s²</br>
+      1) Venus: 8.87 m/s²</br>
+      2) Moon: 1.62 m/s²</br>
+      3) Mars: 3.72 m/s²</br>
+      4) Jupiter: 22.88 m/s²</br>
+      5) Saturn: 9.05 m/s²</br>
+      6) Uranus: 7.77 m/s²</br>
+      8) Neptune: 11 m/s²</br>
+      8) Plutón: 0.4 m/s²
+    </p>
+    <h5>Having this knowledge, calc your weight in the others planets</h5>
+    <p class="">Remeber the Earth is: 9.78 m/s²</br></p>
+
+    <button class="btn" onclick="calc()">play</button>
+    <script
+      type="text/javascript"> function calc(x, msj) { var x = document.getElementById("calc").innerHTML = calculing(); } </script>
+
+    <a href="#contenedor5">
+      <p class="next">more +</p>
+    </a>
+  </div>
+
+  <!-- CONTENEDOR 5     -->
+  <div id="contenedor5" class="efecto">
+    <h2>Contact</h2>
+    <h6>How I can help you?.</h6>
+    <p>Thanks for visiting my website I hope you enjoyed it.</p>
+    <p>Through this form you may send me any message.</p>
+    <a class="contacto" href="mailto:rivasmig@gmail.com"><strong>E-mail</strong> <span>rivasmig@gmail.com</span></a>
+    <p>Or give me a call on</p> <a class="contacto" href="tel:+34658127574"><strong>Telefono</strong>
+      <span>+34658127574</span></a>
+    <p>More about me:</p>
+    <a href="https://es.linkedin.com/in/MiguelRivasIn" target="blank"><img class="icon-in" src="img/linkedin2.svg"
+        alt="LinkendIn" /></a>
+    <a href="https://twitter.com/2N_mikel" target="blank"><img class="icon-tw" src="img/twitter.svg"
+        alt="Twitter" /></a>
+    <a href="https://github.com/miuel" target="blank"><img class="icon-git" src="img/github.svg" alt="Github" /></a>
+
+    <a href="#contenedor">
+      <p class="next">more +</p>
+    </a>
+  </div>
 
 
 
 </body>
+
 </html>
